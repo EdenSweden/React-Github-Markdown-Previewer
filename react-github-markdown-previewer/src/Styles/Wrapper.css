@@ -1,0 +1,11 @@
+#preview {
+    background: rgb(97, 208, 208);
+    padding: 20px 25px;
+    width: 97%;
+  }
+
+  .fas:hover, .fas:focus {
+    color: yellow;
+    transition: 0.25s;
+    outline: none;
+  }

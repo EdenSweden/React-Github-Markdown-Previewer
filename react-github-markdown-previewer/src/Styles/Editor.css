@@ -1,0 +1,19 @@
+#editor-box {
+    display: flex;
+    /*for future features:*/
+    /*overflow: visible;*/
+    /*min-width: fit-content;
+    /*the max-width below makes the container adjust, but then messes up textarea width*/
+    /*max-width: fit-content;*/
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  @media only screen and (max-width: 575px){
+    #editor-box {
+      border-radius: 0.25rem;
+      width: 100%;
+    } 
+  }

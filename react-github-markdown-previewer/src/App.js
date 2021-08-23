@@ -1,6 +1,7 @@
 
 import './App.css';
 import Wrapper from './Components/Wrapper.js';
+/*import 'bootstrap/dist/bootstrap.min.css';*/
 
 function App() {
   return (
