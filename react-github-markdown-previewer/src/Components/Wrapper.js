@@ -1,5 +1,7 @@
 import React from 'react';
 import marked from 'marked';
+import Editor from './Editor';
+import Preview from './Preview';
 
 
 
@@ -43,7 +45,7 @@ marked.setOptions({
   breaks: true
 });
 
-class Wrapper extends React.Component {
+export default class Wrapper extends React.Component {
     constructor(props){
       super(props);
       this.state = {
@@ -65,8 +67,8 @@ class Wrapper extends React.Component {
       }
     //change the size of the editor box by toggling classes
       toggleExpand() {
-        this.setState({expanded: this.state.expanded == true ? false : true, boxToolbarClassString: this.state.expanded == true ? "d-none d-sm-flex flex-row bg-info justify-content-end p-1 border border-dark rounded-top col-sm-12 mw-100 mt-n3"
-  : "d-none d-sm-flex flex-row bg-info justify-content-end p-1 border border-dark rounded-top col-sm-8 offset-sm-2",  iconClass: this.state.expanded == true ? "fas fa-compress-arrows-alt" : "fas fa-expand-arrows-alt", editorClassString: this.state.expanded == true ? "d-flex bg-info rounded-bottom border border-dark p-1 {/*mx-sm-5 col-sm-12*/} col-xs-12 mb-3 w-100 mw-100" : "container form-group bg-info rounded-bottom border border-dark p-1 col-sm-8 col-xs-12", numRows: this.state.expanded == true ? "20" : "10" });
+        this.setState({expanded: this.state.expanded === true ? false : true, boxToolbarClassString: this.state.expanded === true ? "d-none d-sm-flex flex-row bg-info justify-content-end p-1 border border-dark rounded-top col-sm-12 mw-100 mt-n3"
+  : "d-none d-sm-flex flex-row bg-info justify-content-end p-1 border border-dark rounded-top col-sm-8 offset-sm-2",  iconClass: this.state.expanded === true ? "fas fa-compress-arrows-alt" : "fas fa-expand-arrows-alt", editorClassString: this.state.expanded === true ? "d-flex bg-info rounded-bottom border border-dark p-1 {/*mx-sm-5 col-sm-12*/} col-xs-12 mb-3 w-100 mw-100" : "container form-group bg-info rounded-bottom border border-dark p-1 col-sm-8 col-xs-12", numRows: this.state.expanded === true ? "20" : "10" });
         console.log(this.state.expanded);
       }
       

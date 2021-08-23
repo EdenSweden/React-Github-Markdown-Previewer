@@ -1,6 +1,6 @@
 
 import './App.css';
-import './Wrapper.js';
+import Wrapper from './Components/Wrapper.js';
 
 function App() {
   return (
