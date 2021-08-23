@@ -6,12 +6,13 @@ h1 {
   font-size: 2.5rem;
 }
 
+/*added these to './custom.css' to  bootstrap styles for better contrast:*/
 
-a {
+/*a {
     color: black;
     text-decoration: underline;
   }
   
   code {
     color: black;
-  }
+  }*/
