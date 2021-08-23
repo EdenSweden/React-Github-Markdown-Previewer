@@ -4,8 +4,9 @@
     width: 97%;
   }
 
-  .fas:hover, .fas:focus {
+/*used in codepen version:*/
+  /*.fas:hover, .fas:focus {
     color: yellow;
     transition: 0.25s;
     outline: none;
-  }
+  }*/

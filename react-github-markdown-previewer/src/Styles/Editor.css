@@ -6,6 +6,12 @@
     /*the max-width below makes the container adjust, but then messes up textarea width*/
     /*max-width: fit-content;*/
   }
+ 
+  .arrows-icon:hover, .arrows-icon:focus {
+    color: yellow;
+    transition: 0.25s;
+    outline: none;
+  }
 
   textarea {
     resize: none;
