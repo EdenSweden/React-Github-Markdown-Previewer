@@ -1,2 +1,4 @@
 # React-Github-Markdown-Previewer
-Preview your Github markdown.
+Simple Github markdown previewer.
+
+Built using React, Bootstrap, Font Awesome and Marked.js (reference: https://marked.js.org/)
