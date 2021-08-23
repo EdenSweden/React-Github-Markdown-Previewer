@@ -1,10 +1,15 @@
 #editor-box {
     display: flex;
+    background-color: rgb(23, 162, 184);
     /*for future features:*/
     /*overflow: visible;*/
     /*min-width: fit-content;
     /*the max-width below makes the container adjust, but then messes up textarea width*/
     /*max-width: fit-content;*/
+  }
+
+  #box-toolbar {
+    background-color: rgb(23, 162, 184);
   }
  
   .arrows-icon:hover, .arrows-icon:focus {

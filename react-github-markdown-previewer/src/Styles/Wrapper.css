@@ -4,6 +4,10 @@
     width: 97%;
   }
 
+  .expanded-box{
+    margin-top: -1rem;
+  }
+
 /*used in codepen version:*/
   /*.fas:hover, .fas:focus {
     color: yellow;

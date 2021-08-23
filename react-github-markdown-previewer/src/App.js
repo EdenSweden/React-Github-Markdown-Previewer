@@ -4,7 +4,7 @@ import Wrapper from './Components/Wrapper.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className={"App mb-2"}>
       <Wrapper />
     </div>
   );
