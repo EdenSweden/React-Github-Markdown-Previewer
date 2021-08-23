@@ -1,10 +1,16 @@
+import '../Styles/Editor.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+/*import { faExpandArrowsAlt, faCompressArrowsAlt } from '@fortawesome/free-solid-svg-icons'; */
+
+
+
 export default function Editor (props) {
   
     return(
     <div>
         {/*<div id="editor-container">*/}
       <div className={props.boxToolbarClassNames}>
-         <i className={props.whichIcon} onClick={props.onArrowClick} title="resize editor window" aria-label="resize editor window" role="button" aria-pressed="false" aria-labelledby="resize editor window" tabIndex="0" onKeyPress={props.onArrowClick}/>
+         <FontAwesomeIcon icon={props.whichIcon} onClick={props.onArrowClick} title="resize editor window" aria-label="resize editor window" role="button" aria-pressed="false" aria-labelledby="resize editor window" tabIndex="0" onKeyPress={props.onArrowClick}/>
         </div>
         {/*</div>*/}
         <div className={props.editorClassNames} id="editor-box">

@@ -1,4 +1,5 @@
 import marked from 'marked';
+import '../Styles/Preview.css';
 
 export default function Preview (props) {
   
