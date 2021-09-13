@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React-Github-Markdown-Previewer/static/css/main.32ca20a2.chunk.css",
+    "main.js": "/React-Github-Markdown-Previewer/static/js/main.8e4d2b95.chunk.js",
+    "main.js.map": "/React-Github-Markdown-Previewer/static/js/main.8e4d2b95.chunk.js.map",
+    "runtime-main.js": "/React-Github-Markdown-Previewer/static/js/runtime-main.cf2edeec.js",
+    "runtime-main.js.map": "/React-Github-Markdown-Previewer/static/js/runtime-main.cf2edeec.js.map",
+    "static/css/2.818011ed.chunk.css": "/React-Github-Markdown-Previewer/static/css/2.818011ed.chunk.css",
+    "static/js/2.731d4b63.chunk.js": "/React-Github-Markdown-Previewer/static/js/2.731d4b63.chunk.js",
+    "static/js/2.731d4b63.chunk.js.map": "/React-Github-Markdown-Previewer/static/js/2.731d4b63.chunk.js.map",
+    "static/js/3.9c1a9999.chunk.js": "/React-Github-Markdown-Previewer/static/js/3.9c1a9999.chunk.js",
+    "static/js/3.9c1a9999.chunk.js.map": "/React-Github-Markdown-Previewer/static/js/3.9c1a9999.chunk.js.map",
+    "index.html": "/React-Github-Markdown-Previewer/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/React-Github-Markdown-Previewer/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.32ca20a2.chunk.css.map": "/React-Github-Markdown-Previewer/static/css/main.32ca20a2.chunk.css.map",
+    "static/js/2.731d4b63.chunk.js.LICENSE.txt": "/React-Github-Markdown-Previewer/static/js/2.731d4b63.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf2edeec.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.731d4b63.chunk.js",
+    "static/css/main.32ca20a2.chunk.css",
+    "static/js/main.8e4d2b95.chunk.js"
+  ]
+}
