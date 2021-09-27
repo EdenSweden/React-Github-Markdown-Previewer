@@ -1,4 +1,7 @@
 # React-Github-Markdown-Previewer
-Simple Github markdown previewer.
 
-Built using React, Bootstrap, Font Awesome and Marked.js (reference: https://marked.js.org/)
+A simple previewer for Github markdown. Use before pushing readme edits, etc.
+Built using React, Bootstrap, Font Awesome and [Marked.js](https://github.com/markedjs/marked) 
+
+For more info on Marked.js, check out this [documentation](https://marked.js.org/).
+[Github markdown reference cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
